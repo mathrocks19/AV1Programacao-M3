@@ -1,0 +1,17 @@
+!SESSION 2024-05-16 12:51:40.389 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=21.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.committers.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.committers.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-05-16 12:52:05.802
+!MESSAGE Fragment from platform:/plugin/de.empri.devops.gitprivacy of de.empri.devops.gitprivacy could not be validated and was not merged:  -> Validation result: Diagnostic ERROR source=org.eclipse.emf.ecore code=0 Diagnosis of org.eclipse.e4.ui.model.fragment.impl.StringModelFragmentImpl@13a268cd{platform:/plugin/de.empri.devops.gitprivacy/fragment.e4xmi#_fW12kIrOEeW7h_qdP9N9fw} data=[org.eclipse.e4.ui.model.fragment.impl.StringModelFragmentImpl@13a268cd (featurename: handlers, parentElementId: xpath:/, positionInList: null)] [Diagnostic ERROR source=org.eclipse.emf.ecore code=1 The required feature 'command' of 'org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@4ebfb045{platform:/plugin/de.empri.devops.gitprivacy/fragment.e4xmi#_Hqq9MKVDEeuR5c0A_TIKWQ}' must be set data=[de.empri.devops.gitprivacy.handler.1=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@4ebfb045 (tags: null, contributorURI: null) (contributionURI: bundleclass://de.empri.devops.gitprivacy/de.empri.devops.gitprivacy.preferences.ShowRealGitDatesMenuHandler, object: null), org.eclipse.emf.ecore.impl.EReferenceImpl@5c1b89ac (name: command) (ordered: true, unique: true, lowerBound: 1, upperBound: 1) (changeable: true, volatile: false, transient: false, defaultValueLiteral: null, unsettable: false, derived: false) (containment: false, resolveProxies: true)]]org.eclipse.e4.ui.model.fragment.impl.StringModelFragmentImpl@13a268cd (featurename: handlers, parentElementId: xpath:/, positionInList: null)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-16 12:52:12.784
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Matheus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
